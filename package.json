@@ -1,0 +1,12 @@
+{
+  "name": "flix-stream-worker",
+  "version": "1.0.0",
+  "description": "Permanent streaming proxy for Flix Stream Engine",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.100.0"
+  }
+}
